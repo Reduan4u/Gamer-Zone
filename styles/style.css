@@ -186,7 +186,6 @@ p>i {
 }
 
 .gamer-section {
-    border: 2px solid red;
     width: 80%;
     margin: auto;
     display: flex;
@@ -217,6 +216,9 @@ p>i {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 .gamer-description {
@@ -256,6 +258,64 @@ p>i {
 /* <!-- GAMER CONTAINER END --> */
 
 /* <!-- GAMES CONTAINER START --> */
+
+
+.games-container {
+    width: 80%;
+    margin: 120px auto 120px;
+
+}
+
+
+.games-title {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.games-description {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 16px 0 48px;
+}
+
+
+.game-boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.box {
+    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.219);
+    border-radius: 15px;
+
+}
+
+.box-image {
+    width: 100%;
+}
+
+.box-caption {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 24px 5px;
+}
+
 /* <!-- GAMES CONTAINER END --> */
 
 /* <!-- PLAY CONTAINER 1 START --> */
@@ -317,8 +377,12 @@ p>i {
     /* <!-- BANNER END --> */
 
     /* <!-- GAMER CONTAINER START --> */
-    .gamer-section {
+    .gamer-container {
+        background: white;
+    }
 
+    .gamer-section {
+        gap: 0;
         flex-direction: column;
     }
 
@@ -327,8 +391,63 @@ p>i {
         padding: 50px 0;
     }
 
+    .gamer-container-texts {
+        width: 80%;
+        padding: 0 0;
+        text-align: center;
+    }
+
+    .gamer-title {
+        font-size: 28px;
+    }
+
+    .gamer-description {
+        font-size: 12px;
+        margin: 20px 0 26px;
+    }
+
+    .gamer-button {
+        font-size: 14px;
+        padding: 14px 20px;
+    }
+
+    .gamer-purpose {
+        font-size: 16px;
+    }
+
+    .gamer-quote {
+        font-size: 16px;
+    }
+
     /* <!-- GAMER CONTAINER END --> */
 
+    /* <!-- GAMES CONTAINER START --> */
+    .games-container {
+        margin: 80px auto 80px;
+    }
+
+    .games-title {
+        font-size: 24px;
+    }
+
+    .games-description {
+        font-size: 10px;
+        margin: 14px 0 38px;
+    }
+
+    .game-boxes {
+        width: 75%;
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 18px;
+    }
+
+    .box-caption {
+        font-size: 11px;
+        margin: 12px 2px;
+    }
+
+    /* <!-- GAMES CONTAINER END --> */
 
 
 }
@@ -353,8 +472,81 @@ p>i {
     /* <!-- NAVIGATION END --> */
     /* <!-- BANNER START --> */
 
-
+    /* ------------------------------------------- */
     /* <!-- BANNER END --> */
+
+    /* <!-- GAMER CONTAINER START --> */
+    .gamer-container {
+        background: white;
+    }
+
+    .gamer-section {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .gamer-container-image {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .gamer-container-texts {
+        width: 80%;
+        padding: 0 0;
+        text-align: center;
+    }
+
+    .gamer-title {
+        font-size: 38px;
+    }
+
+    .gamer-description {
+        font-size: 16px;
+        margin: 20px 0 26px;
+    }
+
+    .gamer-button {
+        font-size: 18px;
+        padding: 20px 26px;
+    }
+
+    .gamer-purpose {
+        font-size: 20px;
+    }
+
+    .gamer-quote {
+        font-size: 26px;
+    }
+
+    /* <!-- GAMER CONTAINER END --> */
+
+    /* <!-- GAMES CONTAINER START --> */
+    .games-container {
+        margin: 100px auto 80px;
+    }
+
+    .games-title {
+        font-size: 38px;
+    }
+
+    .games-description {
+        font-size: 16px;
+        margin: 16px 0 50px;
+    }
+
+    .game-boxes {
+        width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px;
+    }
+
+    .box-caption {
+        font-size: 16px;
+        margin: 16px 4px;
+    }
+
+    /* <!-- GAMES CONTAINER END --> */
 
 }
 
