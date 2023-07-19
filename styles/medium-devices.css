@@ -1,0 +1,318 @@
+/* RESPONSIVENESS FOR MEDIUM DEVICES START */
+@media screen and (min-width: 560px) and (max-width:992px) {
+
+
+    /* <!-- NAVIGATION START --> */
+
+    .nav-elements {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        margin-top: 30px;
+        display: flex;
+    }
+
+    /* <!-- NAVIGATION END --> */
+    /* <!-- BANNER START --> */
+
+    .banner-container {
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+
+    .banner-info {
+        width: 90%;
+        margin: auto;
+        background-size: contain;
+    }
+
+    .info {
+        padding: 10% 00px;
+        justify-content: center;
+    }
+
+    .banner-title1 {
+        font-size: 38px;
+    }
+
+    .banner-title2 {
+        font-size: 75px;
+    }
+
+    .banner-text {
+        font-size: 16px;
+        margin: 12px 0;
+    }
+
+    .banner-image {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    p>i {
+        margin-right: 12px;
+    }
+
+    .banner-buttons {
+        gap: 18px;
+        margin-top: 12%;
+    }
+
+    .button1 {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+
+    .button2 {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    /* <!-- BANNER END --> */
+    /* <!-- GAMER CONTAINER START --> */
+
+    .gamer-container {
+        background: white;
+    }
+
+    .gamer-section {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .gamer-container-image {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .gamer-container-texts {
+        width: 80%;
+        padding: 0 0;
+        text-align: center;
+    }
+
+    .gamer-title {
+        font-size: 38px;
+    }
+
+    .gamer-description {
+        font-size: 16px;
+        margin: 20px 0 26px;
+    }
+
+    .gamer-button {
+        font-size: 18px;
+        padding: 20px 26px;
+    }
+
+    .gamer-purpose {
+        font-size: 20px;
+    }
+
+    .gamer-quote {
+        font-size: 26px;
+    }
+
+    /* <!-- GAMER CONTAINER END --> */
+    /* <!-- GAMES CONTAINER START --> */
+
+    .games-container {
+        margin: 100px auto 80px;
+    }
+
+    .games-title {
+        font-size: 38px;
+    }
+
+    .games-description {
+        font-size: 16px;
+        margin: 16px 0 50px;
+    }
+
+    .game-boxes {
+        width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px;
+    }
+
+    .box-caption {
+        font-size: 16px;
+        margin: 16px 4px;
+    }
+
+    /* <!-- GAMES CONTAINER END --> */
+    /* <!-- PLAY CONTAINER 1 START --> */
+
+    .play-container {
+        margin-bottom: 100px;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .play-container-texts {
+        width: 80%;
+        margin: 0;
+    }
+
+    .play-images {
+        width: 80%;
+        margin-left: 17%;
+    }
+
+    .play-title {
+        text-align: center;
+        font-size: 44px;
+    }
+
+    .play-description {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    /* <!-- PLAY CONTAINER 1 END --> */
+    /* <!-- PLAY CONTAINER 2 START --> */
+
+    .play2-container {
+        margin-bottom: 100px;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .play2-container-texts {
+        width: 80%;
+        margin: 0;
+    }
+
+    .play2-images {
+        width: 80%;
+        margin-right: 17%;
+    }
+
+    .play2-title {
+        text-align: center;
+        font-size: 44px;
+    }
+
+    .play2-description {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    /* <!-- PLAY CONTAINER 2 END --> */
+    /* <!-- CAREERS CONTAINER START --> */
+
+    .careers-container {
+        flex-direction: column-reverse;
+    }
+
+    .careers-container-texts {
+        width: 80%;
+        margin: 40px auto;
+    }
+
+    .careers-container-image {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .careers-text-title {
+        text-align: center;
+        font-size: 38px;
+    }
+
+    .careers-container-description {
+        font-size: 14px;
+        margin: 18px 0 26px 0;
+    }
+
+    .careers-lists {
+        font-size: 16px;
+    }
+
+    .careers-button {
+        font-size: 16px;
+        border-radius: 48px;
+        padding: 16px 30px;
+    }
+
+    .button3 {
+        text-align: center;
+    }
+
+    /* <!-- CAREERS CONTAINER END --> */
+    /* <!-- GAME-TYPE CONTAINER START --> */
+
+    .game-type-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        padding: 60px 0 60px;
+    }
+
+    .game-box {
+        align-items: center;
+        gap: 3px;
+        padding: 5px 5px;
+    }
+
+    .game-type {
+        font-size: 12px;
+    }
+
+    .game-image {
+        width: 30%;
+    }
+
+    /* <!-- GAME-TYPE CONTAINER END --> */
+    /* <!-- FOOTER CONTAINER START --> */
+
+    .footer-title {
+        font-size: 30px;
+    }
+
+    .footer-menu {
+        width: 65%;
+        gap: 15%;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .footer-social-icons {
+        width: 30%;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 5% auto;
+        gap: 15%;
+        line-height: 25px;
+    }
+
+    .footer-menu2 {
+        width: 60%;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 5% auto;
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    .footer-copyright {
+        width: 50%;
+        margin: auto;
+        font-size: 10px;
+    }
+
+    /* <!-- FOOTER CONTAINER END --> */
+}
+
+/* RESPONSIVENESS FOR MEDIUM DEVICES END */
+
+
+/* THANK YOU SO MUCH */
