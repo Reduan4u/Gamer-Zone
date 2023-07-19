@@ -560,6 +560,7 @@ p>i {
     justify-content: center;
     align-items: center;
     gap: 25px;
+
 }
 
 .game-box {
@@ -568,23 +569,26 @@ p>i {
     gap: 16px;
     border-radius: 50px;
     background: #FFF;
+    color: #0B0223;
     border: none;
     padding: 10px 15px;
     box-shadow: 0 5px 10px rgba(128, 128, 128, 0.061);
 }
 
 .game-type {
-    color: #0B0223;
     font-family: Work Sans;
     font-size: 18px;
     font-weight: 600;
 }
 
+
+.game-box:hover {
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+}
+
 /* <!-- GAME-TYPE CONTAINER END --> */
-
 /* <!-- MAIN END --> */
-
-
 /* <!-- FOOTER CONTAINER START --> */
 .footer {
     background: #0B0223;
