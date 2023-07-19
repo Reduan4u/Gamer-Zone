@@ -82,7 +82,7 @@
 .banner-container {
     margin: auto;
     display: flex;
-    gap: 68px;
+    gap: 10%;
 
 }
 
@@ -91,12 +91,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url("/images/group14.png");
+    background-image: url("/images/group14.png");
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
 }
 
-.info {}
+.info {
+    align-items: center;
+}
 
 .banner-title1 {
     color: #0B0223;
@@ -114,7 +116,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .banner-text {
@@ -132,7 +133,7 @@ p>i {
 .banner-buttons {
     display: flex;
     gap: 24px;
-    margin-top: 62px;
+    margin-top: 12%;
 }
 
 .button1 {
@@ -629,20 +630,61 @@ p>i {
 
     /* <!-- BANNER START --> */
     .banner-container {
+        width: 90%;
         flex-direction: column-reverse;
-        gap: 10px;
     }
 
     .banner-info {
-        width: 80%;
+        width: 90%;
+        margin: auto;
+        background-size: contain;
     }
 
     .info {
-        padding: 100px 0;
+        padding: 10% 00px;
+        justify-content: center;
     }
 
     .banner-title1 {
         font-size: 28px;
+    }
+
+    .banner-title2 {
+        font-size: 55px;
+    }
+
+    .banner-text {
+        font-size: 10px;
+        margin: 8px 0;
+    }
+
+    .banner-image {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    p>i {
+        margin-right: 6px;
+    }
+
+    .banner-buttons {
+        gap: 12px;
+        margin-top: 12%;
+    }
+
+    .button1 {
+        font-size: 10px;
+        padding: 6px 15px;
+    }
+
+    .button2 {
+        font-size: 10px;
+        padding: 0px 15px;
+    }
+
+    .image {
+        width: 100%;
     }
 
     /* <!-- BANNER END --> */
@@ -659,7 +701,7 @@ p>i {
 
     .gamer-container-image {
         width: 100%;
-        padding: 50px 0;
+        padding: 5% 0;
     }
 
     .gamer-container-texts {
@@ -913,8 +955,64 @@ p>i {
 
     /* <!-- NAVIGATION END --> */
     /* <!-- BANNER START --> */
+    .banner-container {
+        width: 80%;
+        flex-direction: column-reverse;
+    }
 
-    /* ------------------------------------------- */
+    .banner-info {
+        width: 90%;
+        margin: auto;
+        background-size: contain;
+    }
+
+    .info {
+        padding: 10% 00px;
+        justify-content: center;
+    }
+
+    .banner-title1 {
+        font-size: 38px;
+    }
+
+    .banner-title2 {
+        font-size: 75px;
+    }
+
+    .banner-text {
+        font-size: 16px;
+        margin: 12px 0;
+    }
+
+    .banner-image {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    p>i {
+        margin-right: 12px;
+    }
+
+    .banner-buttons {
+        gap: 18px;
+        margin-top: 12%;
+    }
+
+    .button1 {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+
+    .button2 {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
     /* <!-- BANNER END --> */
 
     /* <!-- GAMER CONTAINER START --> */
