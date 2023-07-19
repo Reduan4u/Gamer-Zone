@@ -373,6 +373,57 @@ p>i {
 /* <!-- PLAY CONTAINER 1 END --> */
 
 /* <!-- PLAY CONTAINER 2 START --> */
+
+.play2-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16%;
+}
+
+.play2-container-texts {
+    width: 40%;
+    text-align: center;
+    margin-right: 17%;
+}
+
+.play2-images {
+    width: 60%;
+}
+
+.play2-title {
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.play2-description {
+    color: #534C64;
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.play2-image1 {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.play2-image2 {
+    width: 50%;
+    border-radius: 8px;
+    position: relative;
+    margin-top: -34%;
+    margin-left: 74%;
+}
+
 /* <!-- PLAY CONTAINER 2 END --> */
 
 /* <!-- CAREERS CONTAINER START --> */
@@ -386,6 +437,11 @@ p>i {
 
 /* <!-- FOOTER CONTAINER START --> */
 /* <!-- FOOTER CONTAINER END --> */
+
+
+
+
+
 
 
 
@@ -527,11 +583,40 @@ p>i {
         text-align: center;
         font-size: 12px;
         margin-bottom: 50px;
-
     }
 
-
     /* <!-- PLAY CONTAINER 1 END --> */
+
+    /* <!-- PLAY CONTAINER 2 START --> */
+
+    .play2-container {
+        margin-bottom: 100px;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .play2-container-texts {
+        width: 80%;
+        margin: 0;
+    }
+
+    .play2-images {
+        width: 80%;
+        margin-right: 17%;
+    }
+
+    .play2-title {
+        text-align: center;
+        font-size: 38px;
+    }
+
+    .play2-description {
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    /* <!-- PLAY CONTAINER 2 END --> */
 
 
 }
@@ -661,6 +746,35 @@ p>i {
     }
 
     /* <!-- PLAY CONTAINER 1 END --> */
+    /* <!-- PLAY CONTAINER 2 START --> */
+    .play2-container {
+        margin-bottom: 100px;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .play2-container-texts {
+        width: 80%;
+        margin: 0;
+    }
+
+    .play2-images {
+        width: 80%;
+        margin-right: 17%;
+    }
+
+    .play2-title {
+        text-align: center;
+        font-size: 44px;
+    }
+
+    .play2-description {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    /* <!-- PLAY CONTAINER 2 END --> */
 
 }
 
