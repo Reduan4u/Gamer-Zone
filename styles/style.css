@@ -438,7 +438,6 @@ p>i {
     align-items: center;
     justify-content: center;
     gap: 5%;
-    margin-bottom: 130px;
 }
 
 .careers-container-texts {
@@ -499,19 +498,113 @@ p>i {
     border-radius: 48px;
     background-color: #FFF;
     padding: 20px 40px;
-    margin-top: 40px;
+    margin: 40px 0 20px;
     border: none;
 }
 
 /* <!-- CAREERS CONTAINER END --> */
 
 /* <!-- GAME-TYPE CONTAINER START --> */
+.background {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.game-type-container {
+    width: 80%;
+    margin: auto;
+    padding: 120px 0 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.game-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    padding: 10px 15px;
+    box-shadow: 0 5px 10px rgba(128, 128, 128, 0.061);
+}
+
+.game-type {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 /* <!-- GAME-TYPE CONTAINER END --> */
 
 /* <!-- MAIN END --> */
 
 
 /* <!-- FOOTER CONTAINER START --> */
+.footer {
+    background: #0B0223;
+}
+
+.footer-container {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 10% 0;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    color: white;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-menu {
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 3% auto;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-social-icons {
+    color: #FFF;
+    display: grid;
+    width: 30%;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 3% auto;
+}
+
+.footer-menu2 {
+
+    color: #FFF;
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 3% auto;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 /* <!-- FOOTER CONTAINER END --> */
 
 
@@ -732,6 +825,71 @@ p>i {
 
     /* <!-- CAREERS CONTAINER END --> */
 
+    /* <!-- GAME-TYPE CONTAINER START --> */
+
+    .game-type-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        padding: 60px 0 60px;
+
+    }
+
+    .game-box {
+        gap: 3px;
+        padding: 5px 5px;
+    }
+
+    .game-type {
+        font-size: 7px;
+    }
+
+    .game-image {
+        width: 20%;
+    }
+
+    /* <!-- GAME-TYPE CONTAINER END --> */
+    /* <!-- FOOTER CONTAINER START --> */
+    .footer-title {
+        font-size: 20px;
+    }
+
+    .footer-menu {
+        width: 60%;
+        margin: 4% auto;
+        gap: 15%;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 7px;
+        line-height: 15px;
+    }
+
+    .footer-social-icons {
+        width: 30%;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 5% auto;
+        gap: 15%;
+        line-height: 15px;
+    }
+
+    .footer-menu2 {
+        width: 50%;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 5% auto;
+        font-size: 6px;
+        line-height: 15px;
+
+    }
+
+    .footer-copyright {
+        width: 40%;
+        margin: auto;
+        font-size: 8px;
+        line-height: 15px;
+    }
+
+    /* <!-- FOOTER CONTAINER END --> */
 }
 
 /* FOR SMALL DEVICES END */
@@ -936,7 +1094,68 @@ p>i {
     }
 
     /* <!-- CAREERS CONTAINER END --> */
+    /* <!-- GAME-TYPE CONTAINER START --> */
 
+    .game-type-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        padding: 60px 0 60px;
+
+    }
+
+    .game-box {
+        align-items: center;
+        gap: 3px;
+        padding: 5px 5px;
+    }
+
+    .game-type {
+        font-size: 12px;
+    }
+
+    .game-image {
+        width: 30%;
+    }
+
+    /* <!-- GAME-TYPE CONTAINER END --> */
+    /* <!-- FOOTER CONTAINER START --> */
+    .footer-title {
+        font-size: 30px;
+    }
+
+    .footer-menu {
+        width: 65%;
+        gap: 15%;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .footer-social-icons {
+        width: 30%;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 5% auto;
+        gap: 15%;
+        line-height: 25px;
+    }
+
+    .footer-menu2 {
+        width: 60%;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 5% auto;
+        font-size: 10px;
+        line-height: 25px;
+
+    }
+
+    .footer-copyright {
+        width: 50%;
+        margin: auto;
+        font-size: 10px;
+    }
+
+    /* <!-- FOOTER CONTAINER END --> */
 }
 
 /* FOR MEDIUM DEVICES END */
